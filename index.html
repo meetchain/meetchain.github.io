@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MeetChain · 数字化服务专家</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⬡</text></svg>">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="logo">⬡ MeetChain</div>
+    <div class="nav-links">
+      <a href="#services">服务</a>
+      <a href="#about">关于</a>
+      <a href="#contact">联系</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <h1>驱动未来的<span class="highlight">数字化引擎</span></h1>
+    <p class="subtitle">我们为企业提供前沿的线上技术服务，从AI智能到云端架构，一站式赋能您的业务升级</p>
+    <button class="btn-primary" onclick="scrollTo('#services')">探索服务</button>
+  </div>
+  <div class="hero-grid"></div>
+</section>
+
+<section id="services" class="services">
+  <h2 class="section-title">核心服务</h2>
+  <div class="service-grid">
+    <div class="service-card">
+      <div class="card-icon">◈</div>
+      <h3>AI 大模型部署</h3>
+      <p>支持 OpenAI、Claude、Llama、Qwen 等主流大模型的私有化部署与调优，提供高性能推理方案</p>
+    </div>
+    <div class="service-card">
+      <div class="card-icon">◇</div>
+      <h3>智能业务咨询</h3>
+      <p>深入分析业务场景，定制 AI 解决方案，涵盖自然语言处理、知识库构建、智能客服等领域</p>
+    </div>
+    <div class="service-card">
+      <div class="card-icon">▣</div>
+      <h3>云端架构设计</h3>
+      <p>提供高可用、弹性伸缩的云原生架构设计，支持混合云与多云环境的整合与迁移</p>
+    </div>
+    <div class="service-card">
+      <div class="card-icon">◎</div>
+      <h3>数据工程服务</h3>
+      <p>从数据采集、清洗到分析建模，构建完整的数据管线，驱动精准决策</p>
+    </div>
+    <div class="service-card">
+      <div class="card-icon">⬢</div>
+      <h3>API 集成开发</h3>
+      <p>快速对接第三方服务与 API，打造自动化工作流，提升运营效率</p>
+    </div>
+    <div class="service-card">
+      <div class="card-icon">△</div>
+      <h3>安全与运维</h3>
+      <p>7×24 小时监控保障，涵盖渗透测试、漏洞修复、容灾备份与应急响应</p>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="about-inner">
+    <h2 class="section-title">关于我们</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>MeetChain 是一支深耕技术领域的专业团队，专注于为企业和开发者提供高质量的线上技术服务。</p>
+        <p>我们相信技术的价值在于落地。无论是初创公司的 MVP 构建，还是成熟企业的数字化转型，我们都能提供贴合需求的解决方案。</p>
+        <div class="stats">
+          <div class="stat"><span class="stat-num">200+</span><span class="stat-label">服务客户</span></div>
+          <div class="stat"><span class="stat-num">99.9%</span><span class="stat-label">服务可用性</span></div>
+          <div class="stat"><span class="stat-num">50+</span><span class="stat-label">AI 项目交付</span></div>
+        </div>
+      </div>
+      <div class="about-visual">
+        <div class="terminal">
+          <div class="terminal-bar"><span></span><span></span><span></span></div>
+          <div class="terminal-body">
+            <p>$ meetchain deploy --model gpt-4</p>
+            <p class="dim">▸ Initializing cluster...</p>
+            <p class="dim">▸ Loading model weights...</p>
+            <p class="dim">▸ Configuring inference engine...</p>
+            <p class="green">✓ Deployment complete. API ready.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2 class="section-title">开始合作</h2>
+  <p class="contact-desc">选择适合您的服务方案，立即开启数字化之旅</p>
+  <div class="pricing">
+    <div class="price-card">
+      <h3>基础咨询</h3>
+      <div class="price">¥999</div>
+      <ul>
+        <li>1 对 1 技术咨询</li>
+        <li>需求分析报告</li>
+        <li>方案建议书</li>
+      </ul>
+      <button class="btn-pay" data-amount="999">立即支付</button>
+    </div>
+    <div class="price-card featured">
+      <div class="badge">推荐</div>
+      <h3>标准服务</h3>
+      <div class="price">¥4,999</div>
+      <ul>
+        <li>全部基础咨询内容</li>
+        <li>模型部署与调优</li>
+        <li>30 天技术支持</li>
+      </ul>
+      <button class="btn-pay" data-amount="4999">立即支付</button>
+    </div>
+    <div class="price-card">
+      <h3>企业定制</h3>
+      <div class="price">面议</div>
+      <ul>
+        <li>深度定制开发</li>
+        <li>专属技术团队</li>
+        <li>长期运维保障</li>
+      </ul>
+      <button class="btn-pay" data-amount="custom">联系我们</button>
+    </div>
+  </div>
+</section>
+
+<div class="modal-overlay" id="payModal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">&times;</button>
+    <h3 class="modal-title">扫码支付</h3>
+    <div class="pay-tabs">
+      <button class="pay-tab active" data-method="wechat">微信支付</button>
+      <button class="pay-tab" data-method="alipay">支付宝</button>
+    </div>
+    <div class="qr-container">
+      <div class="qr-placeholder" id="qrWechat">
+        <svg viewBox="0 0 200 200" width="200" height="200">
+          <rect width="200" height="200" fill="#1a1a2e"/>
+          <rect x="20" y="20" width="60" height="60" rx="4" fill="#00d26a"/>
+          <rect x="30" y="30" width="40" height="40" rx="2" fill="#1a1a2e"/>
+          <rect x="38" y="38" width="24" height="24" rx="1" fill="#00d26a"/>
+          <rect x="120" y="20" width="60" height="60" rx="4" fill="#00d26a"/>
+          <rect x="130" y="30" width="40" height="40" rx="2" fill="#1a1a2e"/>
+          <rect x="138" y="38" width="24" height="24" rx="1" fill="#00d26a"/>
+          <rect x="20" y="120" width="60" height="60" rx="4" fill="#00d26a"/>
+          <rect x="30" y="130" width="40" height="40" rx="2" fill="#1a1a2e"/>
+          <rect x="38" y="138" width="24" height="24" rx="1" fill="#00d26a"/>
+          <rect x="90" y="90" width="20" height="20" fill="#00d26a"/>
+          <rect x="120" y="90" width="10" height="10" fill="#00d26a"/>
+          <rect x="140" y="90" width="10" height="10" fill="#00d26a"/>
+          <rect x="90" y="120" width="10" height="10" fill="#00d26a"/>
+          <rect x="110" y="120" width="10" height="10" fill="#00d26a"/>
+          <rect x="90" y="140" width="10" height="10" fill="#00d26a"/>
+          <rect x="120" y="130" width="20" height="20" fill="#00d26a"/>
+          <rect x="150" y="140" width="20" height="20" fill="#00d26a"/>
+          <rect x="160" y="110" width="10" height="10" fill="#00d26a"/>
+          <rect x="90" y="160" width="10" height="10" fill="#00d26a"/>
+          <rect x="110" y="160" width="10" height="10" fill="#00d26a"/>
+          <rect x="150" y="170" width="10" height="10" fill="#00d26a"/>
+          <rect x="170" y="170" width="10" height="10" fill="#00d26a"/>
+        </svg>
+        <p>微信扫码支付</p>
+      </div>
+      <div class="qr-placeholder hidden" id="qrAlipay">
+        <svg viewBox="0 0 200 200" width="200" height="200">
+          <rect width="200" height="200" fill="#1a1a2e"/>
+          <rect x="20" y="20" width="60" height="60" rx="4" fill="#1677ff"/>
+          <rect x="30" y="30" width="40" height="40" rx="2" fill="#1a1a2e"/>
+          <rect x="38" y="38" width="24" height="24" rx="1" fill="#1677ff"/>
+          <rect x="120" y="20" width="60" height="60" rx="4" fill="#1677ff"/>
+          <rect x="130" y="30" width="40" height="40" rx="2" fill="#1a1a2e"/>
+          <rect x="138" y="38" width="24" height="24" rx="1" fill="#1677ff"/>
+          <rect x="20" y="120" width="60" height="60" rx="4" fill="#1677ff"/>
+          <rect x="30" y="130" width="40" height="40" rx="2" fill="#1a1a2e"/>
+          <rect x="38" y="138" width="24" height="24" rx="1" fill="#1677ff"/>
+          <rect x="90" y="90" width="20" height="20" fill="#1677ff"/>
+          <rect x="120" y="90" width="10" height="10" fill="#1677ff"/>
+          <rect x="140" y="100" width="10" height="10" fill="#1677ff"/>
+          <rect x="90" y="120" width="10" height="10" fill="#1677ff"/>
+          <rect x="110" y="110" width="10" height="10" fill="#1677ff"/>
+          <rect x="100" y="140" width="10" height="10" fill="#1677ff"/>
+          <rect x="130" y="130" width="20" height="20" fill="#1677ff"/>
+          <rect x="160" y="140" width="20" height="20" fill="#1677ff"/>
+          <rect x="160" y="120" width="10" height="10" fill="#1677ff"/>
+          <rect x="90" y="170" width="10" height="10" fill="#1677ff"/>
+          <rect x="120" y="160" width="10" height="10" fill="#1677ff"/>
+          <rect x="150" y="170" width="10" height="10" fill="#1677ff"/>
+          <rect x="170" y="160" width="10" height="10" fill="#1677ff"/>
+        </svg>
+        <p>支付宝扫码支付</p>
+      </div>
+    </div>
+    <p class="modal-amount" id="modalAmount"></p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="logo">⬡ MeetChain</div>
+    <p>© 2026 MeetChain. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
